@@ -1,0 +1,29 @@
+{
+  "_comment": "FICTIONAL illustrative case — 'MapleLeaf BioFoundry', a made-up shared bio-design platform. All figures are invented for demonstration and do not represent any real organization. Currency unit: arbitrary 'kUSD' (thousands).",
+  "currency_unit": "kUSD (thousands)",
+  "case_name": "MapleLeaf BioFoundry (fictional)",
+
+  "principal": 8400,
+  "annual_rate": 0.032,
+  "years": 8,
+
+  "layer_a_recurring": [620, 1480, 2510, 3360, 3980, 4420, 4710, 4880],
+  "layer_b_codev":     [0,   60,   180,  340,  520,  640,  760,  880],
+  "layer_c_ip": {
+    "unit_price": 1100,
+    "projects":   [0, 0, 1, 2, 2, 3, 3, 3],
+    "probability": 0.35
+  },
+
+  "gross_margin": { "a": 0.48, "b": 0.58, "c": 0.82 },
+
+  "cash_opex":     [760, 1080, 1480, 1780, 1940, 2040, 2110, 2150],
+  "depreciation":  [560, 880, 1040, 1040, 1040, 1040, 1040, 1040],
+  "working_capital_ratio": 0.05,
+
+  "scenarios": {
+    "conservative": "weighted",
+    "optimistic": "full"
+  },
+  "sensitivity_base": "weighted"
+}
